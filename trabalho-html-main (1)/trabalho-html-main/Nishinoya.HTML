@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nishinoya.css">
+    <script type="text/javascript" src="login.js"></script>
+    <title>Nishinoya</title>
+</head>
+<body>
+   <div class="titulo">
+        <div class="legendTxt"><center><h1>Nishinoya</h1></center></div>    
+        <div class="subt"><center><h4>"Eu manterei a bola no ar, você não está em posição de desistir."</h4></center></div>
+   </div>
+    
+
+    <div class="container">
+        <div class="dados">
+            <p>
+                Yu Nishinoya é aluno do 2º ano da escola Karasuno. Ele é membro do time de voleibol da escola e atua como o Líbero do time. Seus colegas de time o apelidaram de <b>Divino Guardião do Karasuno.</b> Nishinoya é o membro mais baixo da equipe. Costuma usar o cabelo despenteado e para cima, sendo parte do seu cabelo um pouco descolorido na frente. Gosta de usar camisas com frases aleatórias possui 159.3 cm.
+                <br><br>
+                Nishinoya é uma pessoa muito enérgica e temperamental. Sua natureza turbulenta e peripécias malucas podem atrair atenção indesejada com bastante facilidade, o que geralmente vai mal para ele. Embora ele raramente se preocupe com as consequências de seus atos (e pode até mesmo voltar à violência para descarregar sua raiva em certas ocasiões), ele é surpreendentemente atencioso com os sentimentos e inseguranças de seus amigos.
+                <br><br>
+                Ele tem o hábito peculiar de inventar espontaneamente nomes ridículos para os movimentos que executa enquanto pratica os recebimentos. Nishinoya pode ser extremamente impaciente, excitável e impulsivo. Como Tanaka coloca, "ele simplesmente fica muito entusiasmado para o seu bem". Ele não se preocupa em filtrar suas palavras e, portanto, está propenso a deixar escapar tudo o que está pensando em voz alta e sem tato. No jogo, entretanto, sua atitude muda drasticamente conforme ele se torna incrivelmente focado e sério, permanecendo calmo e fazendo tudo ao seu alcance para fornecer o suporte de que sua equipe precisa até o final. Por isso, todos no clube de vôlei o respeitam muito.
+            </p>
+            
+            <fieldset class="fieldborder"><img src="icons/Perfil_Yu_Nishinoya.webp" alt="Nishinoya">
+                <b>Pré-timeskip</b> <br>
+                <hr>
+                <b>Conhecido como:</b> <br> Divino Guardião do Karasuno. <br>
+                <b>Data de Nascimento:</b> <br> 10 de outubro de 1995
+                <hr>
+                <b>Equipe:</b> <br>  Karasuno High
+                <hr>
+                <b>Número</b> <br> 4(Ensino Médio 2º ano )
+
+                <hr>
+                <b>Posição:</b> <br> Líbero
+            
+            </fieldset>
+        </div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="cards.html">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon> </span>
+                    <span class="title">Home</span>
+
+                </a>
+            </li>     <li class="list">
+                <a href="hinata.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Hinata</span>
+
+                </a>
+            </li>
+                    <li class="list">
+                <a href="tsukishima.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Tsukishima</span>
+                
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="kageyama.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Kageyama</span>
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="Daichi.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Sawamura</span>
+
+                </a>
+            </li>
+        </ul>
+    </div>
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const list = document.querySelectorAll('.list')
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        }
+        list.forEach((item) =>
+        item.addEventListener('click' , activeLink))
+
+    </script>
+
+
+
+
+</body>
+</html>

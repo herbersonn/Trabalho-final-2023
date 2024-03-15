@@ -1,0 +1,9 @@
+@keyframes anima{
+        1%{ background: url(cad.png);background-repeat:no-repeat; background-size: cover ;} 
+        25%{ background: url(22.png);background-repeat:no-repeat; background-size: cover ; margin-right: 150%;} 
+        50%{background: url(3.png);background-repeat:no-repeat; background-size: cover ; margin-left: 150%;}
+        75%{background: url(4.png);background-repeat:no-repeat; background-size: cover ; margin-right: 150%; }
+        100%{background: url(5.png);background-repeat:no-repeat; background-size: cover ; margin-left: 150%;}
+        
+
+}

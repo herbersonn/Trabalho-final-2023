@@ -1,0 +1,20 @@
+Posições volei
+Levantador
+Oposto
+Ponteiro (Pontas)
+Central
+Líbero
+
+levantador: O levantador é aquele jogador responsável por armar os ataques. Ou seja, ele “levanta” ou passa a bola para o jogador que irá atacar na sequência.
+
+oposto:oposto é justamente o jogador que sempre atua na posição contrária a do levantador, em sua diagonal. Desta forma, é o principal atacante de um time, sendo uma boa opção também para vir do fundo da quadra e atacar antes mesmo da linha de três metros 
+
+ponteiro: ponta, chamados também de ponteiros, ficam posicionados nas laterais da quadra. Eles atacam pela entrada e saída de rede, mas também têm a função de defender o ataque do time adversário, ajudando o líbero nos passes de defesa.
+
+central: central costuma ser um dos atletas mais altos em um time de vôlei. Ele ataca pelo meio da rede e também é um dos principais encarregados do bloqueio. 
+
+libero: líbero costuma ser o jogador mais baixo da equipe e tem função exclusivamente defensiva, não podendo sacar, atacar ou bloquear. Sua principal característica é a boa recepção de bola, defendendo o ataque do time oposto
+
+
+
+15:41 14/11/2023

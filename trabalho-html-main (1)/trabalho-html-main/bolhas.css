@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.bolhas{
+    position: absolute;
+    display: flex;    
+
+}
+
+.bolhas span{
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px #ffa50044, 
+    0 0 50px coral,
+    0 0 100px coral;
+    animation: animar calc(160s / var(--i)) linear infinite;
+    
+
+}
+
+@keyframes animar{
+    0% {
+
+        transform: translateY(100vh) scale(0);
+    
+    }
+    100% {
+
+        transform: translateY(-10vh) scale(1);
+
+    }
+
+}
+
+
+
+.bolhas span:nth-of-type(even){
+    background-color: #00000095;
+    box-shadow: 0 0 0 5px rgb(0, 0, 0),
+    0 0 50px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0);
+
+
+}

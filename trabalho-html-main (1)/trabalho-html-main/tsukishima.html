@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tsukishima.css">
+    <title>Tsukishima</title>
+</head>
+<body>
+    <div class="titulo">
+        <div class="legendTxt"><center><h1>Tsukishima</h1></center></div>
+        <div class="subt"><center><h4>"Pessoas inúteis e de sangue quente me irritam..."</h4></center></div>
+    </div>
+    
+
+    <div class="container">
+        <div class="dados">
+            <p>
+                Kei Tsukishima é aluno do primeiro ano na escola Karasuno, ele é um bloqueador central no time de vôlei da escola. Tsukishima é muito alto e incrivelmente magro para um jogador de voleibol. Apesar de ser um primeiro ano, ele é o jogador mais alto do Karasuno, com 190,1 centímetros. Ele tem cabelo loiro curto, pele clara, sobrancelhas finas e olhos castanhos dourados. Ele é frequentemente visto com uma carranca ou um sorriso condescendente no rosto.
+                <br><br>
+                Tsukishima é muito contundente e às vezes irrita seus companheiros de equipe devido à sua natureza antagônica (mais notavelmente sendo <a href="hinata.html">Hinata</a>, <a href="kageyama.html">Kageyama</a>, <a href="Nishinoya.HTML">Nishinoya</a>  e Tanaka) e às vezes outras equipes por causa de sua atitude presunçosa casual, tendo orgulho e saboreando quando seus oponentes o vêem como um incômodo.
+                <br><br> 
+                Apesar de parecer arrogante, Tsukishima tem baixa auto-estima e se considera inferior. Embora Tsukishima mantenha uma personalidade de alguém que mostra pouco interesse por nada e não faria algo que não gostasse ou gostasse, ele realmente gosta de vôlei. Ele inicialmente se absteve de colocar muito esforço no voleibol e ser muito apaixonado pelo esporte.
+            </p>
+            
+            <fieldset class="fieldborder"><img src="icons/Perfil_Kei_Tsukishima.webp"tsukishima">
+                <b>Pré-timeskip</b> <br>
+                <hr>
+                <b>Conhecido como:</b> <br> Tsukki 
+                <hr>
+                <b>Data de Nascimento:</b> <br> 27 de setembro de 1996
+                <hr>
+                <b>Equipe:</b> <br>  Karasuno High
+                <hr>
+                <b>Número</b> <br> 11(Ensino Médio 1º ano)
+                <br> 3(Ensino Médio 3º ano) 
+                <hr>
+                <b>Posição:</b> <br> Central
+            
+            
+            </fieldset>
+        </div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="cards.html">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon> </span>
+                    <span class="title">Home</span>
+
+                </a>
+            </li>     <li class="list">
+                <a href="hinata.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Hinata</span>
+
+                </a>
+            </li>
+                    <li class="list">
+                <a href="Nishinoya.HTML">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Nishinoya</span>
+                
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="kageyama.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Kageyama</span>
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="Daichi.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Sawamura</span>
+
+                </a>
+            </li>
+        </ul>
+    </div>
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const list = document.querySelectorAll('.list')
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        }
+        list.forEach((item) =>
+        item.addEventListener('click' , activeLink))
+
+    </script>
+
+    
+
+
+
+
+</body>
+</html></title>
+</head>
